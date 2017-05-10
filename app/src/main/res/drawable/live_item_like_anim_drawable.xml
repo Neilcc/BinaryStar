@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:repeatCount="infinite"
+    android:repeatMode="restart"
+    >
+    <item android:drawable="@mipmap/live_item_zan_01" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_02" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_03" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_04" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_05" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_06" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_07" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_08" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_09" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_10" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_11" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_12" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_13" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_14" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_15" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_16" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_17" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_18" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_19" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_20" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_21" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_22" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_23" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_24" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_25" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_26" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_27" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_28" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_29" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_30" android:duration="60"/>
+    <item android:drawable="@mipmap/live_item_zan_31" android:duration="60"/>
+</animation-list>
