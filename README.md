@@ -13,3 +13,11 @@ Refer to the demo app for more informations
 ### Feel free to contact me 
 zccneil@163.com
 
+
+# 双子星
+
+## 基于clean architechture 的Android ui 线程分离方案与架构
+
+### 所有的逻辑行为将会在子线程中执行
+
+### 逻辑行为需要集成Command 对象进行封装，以保证逻辑复用。
