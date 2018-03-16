@@ -8,22 +8,23 @@ import com.zcc.binarystar.core.executor.BinaryTaskExecutor;
 
 public abstract class Command<T, SR, FR> {
 
-    protected T input;
     protected ICommandResp<SR, FR> iCommandResp;
 
-    public Command(T input) {
-        this.input = input;
+    public Command() {
     }
 
     protected abstract void runCommand(T input);
 
     public ICommandResp<SR, FR> getResponseCallBack() {
-
         return iCommandResp;
     }
 
-    public void execute(ICommandResp<SR, FR> resp) {
+    public void execute(final T input, ICommandResp<SR, FR> resp) {
         this.iCommandResp = new CommandRespWrapper<>(resp);
+        if (!BinaryTaskExecutor.isMainThread()) {
+            runCommand(input);
+            return;
+        }
         BinaryTaskExecutor.getInstance().executeOnSubThread(new Runnable() {
             @Override
             public void run() {

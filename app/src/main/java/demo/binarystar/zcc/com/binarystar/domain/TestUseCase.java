@@ -8,8 +8,7 @@ import com.zcc.binarystar.core.Command;
 
 public class TestUseCase extends Command<String, String, Integer> {
 
-    public TestUseCase(String input) {
-        super(input);
+    public TestUseCase() {
     }
 
     @Override
