@@ -10,4 +10,6 @@ public interface TestContractView {
 
     public void operationTwo(Integer code);
 
+    public void showProgress(Integer data);
+
 }
