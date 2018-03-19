@@ -33,12 +33,15 @@ public abstract class Command<T, SR, FR> {
         });
     }
 
+
     public interface ICommandResp<SR, FR> {
 
         void onSuccess(SR successRet);
 
         void onFailed(FR failedRet);
     }
+
+
 
     public static class CommandRespWrapper<SR, FR> implements ICommandResp<SR, FR> {
 
