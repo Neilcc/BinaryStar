@@ -21,3 +21,20 @@ zccneil@163.com
 ### 所有的逻辑行为将会在子线程中执行
 
 ### 逻辑行为需要集成Command 对象进行封装，以保证逻辑复用。
+
+
+# How to Use
+
+1. ADD Maven :
+
+```
+ maven{
+         url "https://dl.bintray.com/zccneil/BinaryStar/"
+     }
+```
+
+2. Compile gradle:
+
+```
+        compile 'com.zcc.binarystar:core:1.0.0'
+```
